@@ -1,0 +1,11 @@
+CREATE DATABASE userdetails;
+
+CREATE TABLE userdetails (
+	id serial PRIMARY KEY,
+	full_name VARCHAR ( 50 ) UNIQUE NOT NULL,
+	password VARCHAR ( 50 ) NOT NULL,
+	email VARCHAR ( 255 ) UNIQUE NOT NULL,
+	phone_number VARCHAR ( 255 ) UNIQUE NOT NULL,
+	department VARCHAR ( 255 ) UNIQUE NOT NULL,
+	job_title VARCHAR ( 255 ) UNIQUE NOT NULL
+)
