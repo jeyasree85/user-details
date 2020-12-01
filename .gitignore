@@ -4,10 +4,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-
+mvnw.*
 .idea
 *.iws
 *.iml
 *.ipr
+*.DS_Store
+*.iml
 
 
