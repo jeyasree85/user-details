@@ -20,3 +20,6 @@ mvn spring-boot:run
 User API will be available in the swagger link Url http://localhost:9093/swagger-ui.html#/user-controller
 
 This API includes CRUD operations for the user.
+Here I have enclosed SwaggerUserApi.png file as swagger image for reference.
+
+
